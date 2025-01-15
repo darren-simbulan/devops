@@ -3,122 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Resume - IT Student</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .resume {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1em;
+            color: #555;
+            margin: 5px 0;
+        }
+
+        header a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        h2 {
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills li {
+            display: inline-block;
+            background: #007BFF;
+            color: white;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .job {
+            margin-bottom: 15px;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #eee;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 0.9em;
+            }
+            .resume {
+                padding: 10px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
 </head>
-<style>
-    body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-}
-
-.resume {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1em;
-    color: #555;
-}
-
-h2 {
-    color: #007BFF;
-    border-bottom: 2px solid #007BFF;
-    display: inline-block;
-    margin-top: 20px;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-.skills li {
-    display: inline-block;
-    background: #007BFF;
-    color: white;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-.job {
-    margin-bottom: 15px;
-}
-
-hr {
-    border: none;
-    border-top: 2px solid #eee;
-    margin: 20px 0;
-}
-
-</style>
 <body>
     <div class="resume">
         <header>
-            
-            <h1>DARREN G SIMBULAN</h1>
-            <p>Web Developer | Designer | Freelancer</p>
-            <p>Email: darrensimbulan123456@gmail.com | Phone: +63 912 345 6789</p>
+            <img src="https://via.placeholder.com/150" alt="Profile Picture">
+            <h1>Juan Dela Cruz</h1>
+            <p>IT Student | Aspiring Web Developer</p>
+            <p>Email: <a href="mailto:juandelacruz@gmail.com">juandelacruz@gmail.com</a> | 
+               Phone: <a href="tel:+639123456789">+63 912 345 6789</a></p>
+            <p>Portfolio: <a href="#">www.juandelacruz.dev</a> | LinkedIn: <a href="#">linkedin.com/in/juandelacruz</a></p>
         </header>
         <hr>
         <section>
             <h2>Summary</h2>
             <p>
-                Experienced web developer with a passion for building user-friendly websites and applications.
-                Skilled in HTML, CSS, JavaScript, and responsive design.
+                Enthusiastic IT student with a strong passion for technology and software development. Skilled in programming, web development, and troubleshooting, with a commitment to continuous learning and professional growth.
             </p>
-        </section>
-       
-        <section>
-            <h2>Work Experience</h2>
-            <div class="job">
-                <h3>Web Developer</h3>
-                <p>ABC Company, 2020 - Present</p>
-                <ul>
-                    <li>Designed and maintained company websites using modern technologies.</li>
-                    <li>Collaborated with designers and project managers to meet client needs.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Freelance Web Designer</h3>
-                <p>2018 - 2020</p>
-                <ul>
-                    <li>Created responsive websites for small businesses.</li>
-                    <li>Optimized web performance and SEO for clients.</li>
-                </ul>
-            </div>
         </section>
         <section>
             <h2>Education</h2>
             <p>Bachelor of Science in Information Technology</p>
-            <p>University of the Philippines, 2023 - 2026</p>
+            <p>University of the Philippines | 2023 - Present</p>
         </section>
         <section>
-            <h2>Skills</h2>
+            <h2>Technical Skills</h2>
             <ul class="skills">
-                <li>HTML5, CSS3</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
                 <li>JavaScript</li>
-                <li>Responsive Design</li>
-                <li>Git and Version Control</li>
+                <li>Python</li>
+                <li>Database Management (MySQL)</li>
+                <li>Git & Version Control</li>
+                <li>Basic Networking</li>
             </ul>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Portfolio Website:</strong> Created a personal portfolio website to showcase projects and skills using HTML, CSS, and JavaScript.</li>
+                <li><strong>Library Management System:</strong> Developed a simple library management system using Python and MySQL for database management.</li>
+                <li><strong>Responsive Blog Template:</strong> Designed and implemented a responsive blog layout using modern web design techniques.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Extracurricular Activities</h2>
+            <ul>
+                <li>Member, University IT Club (2023 - Present)</li>
+                <li>Volunteer, Community Tech Workshops (Teaching basic web development to high school students)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Interests</h2>
+            <p>Web Development, Open Source Contribution, Video Games, Photography</p>
         </section>
     </div>
 </body>
